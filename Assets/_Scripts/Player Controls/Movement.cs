@@ -93,104 +93,79 @@ public partial class @Movement: IInputActionCollection2, IDisposable
             ""id"": ""3f432975-9fcd-4303-a6ac-d70f3add2ab8"",
             ""actions"": [
                 {
-                    ""name"": ""Forward"",
-                    ""type"": ""Button"",
-                    ""id"": ""013615dd-ee6a-47bb-8a3c-ec559f2cfa9a"",
-                    ""expectedControlType"": """",
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""32b5f4bd-4953-4b81-84ac-5214018fc607"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Backward"",
-                    ""type"": ""Button"",
-                    ""id"": ""59bb0a0c-b7b2-475c-8473-fcef17b63635"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Left"",
-                    ""type"": ""Button"",
-                    ""id"": ""0fa217bf-35cc-4c6a-8ceb-a6a91297f868"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Right"",
-                    ""type"": ""Button"",
-                    ""id"": ""e821aea1-28ee-4620-a138-fcef4455aa20"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Jump"",
-                    ""type"": ""Button"",
-                    ""id"": ""f4c34a67-76e3-421f-8bbf-515faa7596d1"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": """",
-                    ""id"": ""8b08c1bc-53d0-4895-9a9c-2b71943c21e2"",
+                    ""name"": ""WASD"",
+                    ""id"": ""9079869f-e7ac-4323-876d-30f1f7fb527b"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""7759a5a0-c25d-4b19-a6ea-12bbbe9ba717"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Forward"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""2f3a24f4-7a49-4ffe-bf1e-5dc308ce34d9"",
+                    ""name"": ""down"",
+                    ""id"": ""aef20f0a-a716-469b-b551-7d0b8e487b0a"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Backward"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""9e0217cc-1994-4381-a52c-07cc4ea6204a"",
+                    ""name"": ""left"",
+                    ""id"": ""89f1fbaf-5ace-4ef3-9a29-1e490cdfa45e"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Left"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""4315284a-461a-4c66-a03c-f4fc3d4ad28b"",
+                    ""name"": ""right"",
+                    ""id"": ""520c2933-7c58-4633-a98c-0d34e87a301f"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Right"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
-                    ""id"": ""439709f2-c49f-4bb9-bf40-f1abf0b06f70"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""id"": ""ca0f1f06-60ce-4842-ad12-33512544d830"",
+                    ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Jump"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -201,11 +176,7 @@ public partial class @Movement: IInputActionCollection2, IDisposable
 }");
         // Inputs
         m_Inputs = asset.FindActionMap("Inputs", throwIfNotFound: true);
-        m_Inputs_Forward = m_Inputs.FindAction("Forward", throwIfNotFound: true);
-        m_Inputs_Backward = m_Inputs.FindAction("Backward", throwIfNotFound: true);
-        m_Inputs_Left = m_Inputs.FindAction("Left", throwIfNotFound: true);
-        m_Inputs_Right = m_Inputs.FindAction("Right", throwIfNotFound: true);
-        m_Inputs_Jump = m_Inputs.FindAction("Jump", throwIfNotFound: true);
+        m_Inputs_Move = m_Inputs.FindAction("Move", throwIfNotFound: true);
     }
 
     ~@Movement()
@@ -286,11 +257,7 @@ public partial class @Movement: IInputActionCollection2, IDisposable
     // Inputs
     private readonly InputActionMap m_Inputs;
     private List<IInputsActions> m_InputsActionsCallbackInterfaces = new List<IInputsActions>();
-    private readonly InputAction m_Inputs_Forward;
-    private readonly InputAction m_Inputs_Backward;
-    private readonly InputAction m_Inputs_Left;
-    private readonly InputAction m_Inputs_Right;
-    private readonly InputAction m_Inputs_Jump;
+    private readonly InputAction m_Inputs_Move;
     /// <summary>
     /// Provides access to input actions defined in input action map "Inputs".
     /// </summary>
@@ -303,25 +270,9 @@ public partial class @Movement: IInputActionCollection2, IDisposable
         /// </summary>
         public InputsActions(@Movement wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Inputs/Forward".
+        /// Provides access to the underlying input action "Inputs/Move".
         /// </summary>
-        public InputAction @Forward => m_Wrapper.m_Inputs_Forward;
-        /// <summary>
-        /// Provides access to the underlying input action "Inputs/Backward".
-        /// </summary>
-        public InputAction @Backward => m_Wrapper.m_Inputs_Backward;
-        /// <summary>
-        /// Provides access to the underlying input action "Inputs/Left".
-        /// </summary>
-        public InputAction @Left => m_Wrapper.m_Inputs_Left;
-        /// <summary>
-        /// Provides access to the underlying input action "Inputs/Right".
-        /// </summary>
-        public InputAction @Right => m_Wrapper.m_Inputs_Right;
-        /// <summary>
-        /// Provides access to the underlying input action "Inputs/Jump".
-        /// </summary>
-        public InputAction @Jump => m_Wrapper.m_Inputs_Jump;
+        public InputAction @Move => m_Wrapper.m_Inputs_Move;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -348,21 +299,9 @@ public partial class @Movement: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_InputsActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_InputsActionsCallbackInterfaces.Add(instance);
-            @Forward.started += instance.OnForward;
-            @Forward.performed += instance.OnForward;
-            @Forward.canceled += instance.OnForward;
-            @Backward.started += instance.OnBackward;
-            @Backward.performed += instance.OnBackward;
-            @Backward.canceled += instance.OnBackward;
-            @Left.started += instance.OnLeft;
-            @Left.performed += instance.OnLeft;
-            @Left.canceled += instance.OnLeft;
-            @Right.started += instance.OnRight;
-            @Right.performed += instance.OnRight;
-            @Right.canceled += instance.OnRight;
-            @Jump.started += instance.OnJump;
-            @Jump.performed += instance.OnJump;
-            @Jump.canceled += instance.OnJump;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
         }
 
         /// <summary>
@@ -374,21 +313,9 @@ public partial class @Movement: IInputActionCollection2, IDisposable
         /// <seealso cref="InputsActions" />
         private void UnregisterCallbacks(IInputsActions instance)
         {
-            @Forward.started -= instance.OnForward;
-            @Forward.performed -= instance.OnForward;
-            @Forward.canceled -= instance.OnForward;
-            @Backward.started -= instance.OnBackward;
-            @Backward.performed -= instance.OnBackward;
-            @Backward.canceled -= instance.OnBackward;
-            @Left.started -= instance.OnLeft;
-            @Left.performed -= instance.OnLeft;
-            @Left.canceled -= instance.OnLeft;
-            @Right.started -= instance.OnRight;
-            @Right.performed -= instance.OnRight;
-            @Right.canceled -= instance.OnRight;
-            @Jump.started -= instance.OnJump;
-            @Jump.performed -= instance.OnJump;
-            @Jump.canceled -= instance.OnJump;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
         }
 
         /// <summary>
@@ -430,39 +357,11 @@ public partial class @Movement: IInputActionCollection2, IDisposable
     public interface IInputsActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Forward" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnForward(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Backward" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnBackward(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Left" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnLeft(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Right" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnRight(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnJump(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }
