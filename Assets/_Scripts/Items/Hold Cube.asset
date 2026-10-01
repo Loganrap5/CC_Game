@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8b3836f00af194b96986045309fbfe, type: 3}
+  m_Name: Hold Cube
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  obj: {fileID: 6756495730499717545, guid: 3253426f3d4145d49b804d939656a0aa, type: 3}

@@ -12,9 +12,18 @@ public class MultiplayerManager : MonoBehaviour
 
     public List<Player> players = new List<Player>(); 
 
+
+    //DEBUG TESTING
+    public List<string> names = new List<string>();
+    //DEBUG TESTING
+
     private void Awake()
     {
         playerInputManager = GetComponent<PlayerInputManager>();
+
+        //DEBUG TESTING
+        names.AddRange(new string[] { "John", "Mason", "Morgan", "Susan" });
+        //DEBUG TESTING
     }
 
     //This function is called every time a player joins the game. 
@@ -29,8 +38,13 @@ public class MultiplayerManager : MonoBehaviour
 
         else
         {
+            //DEBUG TESTING
+            player.name = names[Random.Range(1, 3)];
+            //DEBUG TESTING
+
             //Otherwise add to list.
             players.Add(player);
+            
         }
 
     }

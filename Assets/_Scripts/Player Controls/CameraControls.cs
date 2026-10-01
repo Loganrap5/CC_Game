@@ -1,15 +1,19 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CameraControls : MonoBehaviour
 {
     public Transform target;
-    public float rotationSpeed = 3.0f;
+    public Transform player;
 
-    private float yaw = 0f;
-    private float pitch = 0f;
+    public float rotationSpeed = 3f;
+
+    private float yaw;
+    private float pitch;
 
     public bool active = true;
 
+    private Vector2 lookInput;
 
     private void Start()
     {
@@ -17,35 +21,29 @@ public class CameraControls : MonoBehaviour
         Cursor.visible = false;
     }
 
-    //private void LateUpdate()
-    //{
-    //    if (active == true)
-    //    {
-    //        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed;
-    //        float mouseY = Input.GetAxis("Mouse Y") * rotationSpeed;
-
-    //        yaw += mouseX;
-
-    //        pitch -= mouseY;
-
-    //        transform.position = target.position;
-    //        transform.rotation = Quaternion.Euler(pitch, yaw, 0);
-    //    }
-    //}
+    public void OnLook(InputAction.CallbackContext context)
+    {
+        lookInput = context.ReadValue<Vector2>();
+    }
 
     private void Update()
     {
-        if (active == true)
-        {
-            float mouseX = Input.GetAxis("Mouse X") * rotationSpeed;
-            float mouseY = Input.GetAxis("Mouse Y") * rotationSpeed;
+        if (!active)
+            return;
 
-            yaw += mouseX;
+        float mouseX = lookInput.x * rotationSpeed;
+        float mouseY = lookInput.y * rotationSpeed;
 
-            pitch -= mouseY;
+        yaw += mouseX;
+        pitch -= mouseY;
 
-            transform.position = target.position;
-            transform.rotation = Quaternion.Euler(pitch, yaw, 0);
-        }
+        pitch = Mathf.Clamp(pitch, -90f, 90f);
+
+        // Player rotates horizontally
+        player.rotation = Quaternion.Euler(0f, yaw, 0f);
+
+        // Camera looks vertically
+        transform.position = target.position;
+        transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
     }
 }

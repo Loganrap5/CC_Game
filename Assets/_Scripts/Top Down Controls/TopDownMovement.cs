@@ -6,9 +6,34 @@ public class TopDownMovement : MonoBehaviour
     public float speed;
     private Vector2 move;
 
+    
+    Interactor interactor;
+    Player player;
+
+    private void Start()
+    {
+        interactor = GetComponent<Interactor>();
+        player = GetComponent<Player>();
+    }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         move = context.ReadValue<Vector2>();
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        //Setting the Interact function to whatever button is set for it. 
+        interactor.InteractEvent(); 
+
+        if(context.started)
+        {
+            interactor.InteractEvent();
+        }
+        if(context.canceled)
+        {
+            interactor.CancelInteraction();
+        }
     }
 
     private void Update()
