@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639271343233651511
+  lastModified: 639274883195573050
   FileSizes:
   - Name: Desktop
     Value: 9440
@@ -70,7 +70,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639271343233661742
+  cacheTime: 639274883195577202
   SerializableEventsDict:
   - key: event:/TEST
     index: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639271343233661742
+  lastModified: 639274883195577202
   FileSizes:
   - Name: Desktop
     Value: 766

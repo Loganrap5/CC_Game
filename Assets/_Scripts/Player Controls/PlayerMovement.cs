@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 2f;
     public float jumpHeight = 1.5f;
     public float gravity = -20f;
 
@@ -16,15 +16,19 @@ public class PlayerMovement : MonoBehaviour
 
     Interactor interactor;
 
+    Animator animator;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
         interactor = GetComponent<Interactor>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
     {
         Move();
+        UpdateAnimation();
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -60,5 +64,12 @@ public class PlayerMovement : MonoBehaviour
         {
             interactor.CancelInteraction();
         }
+    }
+
+     public void UpdateAnimation()
+    {
+        float speed = moveInput.magnitude;
+
+        animator.SetFloat("Speed", speed);
     }
 }

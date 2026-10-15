@@ -84,6 +84,7 @@ public class Door : MonoBehaviour
     private void OpenDoor()                          //Function that will be called by interaction 
     {
 
+        
 
         opening = true;
         closing = false;

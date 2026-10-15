@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74985cc2fd1c344a82ec9b2f20ca35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Car
-  order: {fileID: 1381242772911380345, guid: 1af94fd4b67a6564181da2bc340d1e2d, type: 3}
+  order: {fileID: 5575199551103448193, guid: 03772be9fb9d5cb428ef9593aad6e458, type: 3}
   foodDelivered: 0
 --- !u!1 &5273201852459763154
 GameObject:

@@ -6,6 +6,16 @@ public class PickupInteraction : Interaction
     //Put this Class on along with Interactable.cs on the object. 
 
 
+    private CookingStation cookingStation;
+    private int stationSlot = -1;
+
+    public void SetCookingStation(CookingStation station, int slot)
+    {
+        cookingStation = station;
+        stationSlot = slot;
+    }
+
+
     public override void StartInteraction(Player player)
     {
         //dont pick anything up if you already have something
@@ -17,6 +27,12 @@ public class PickupInteraction : Interaction
         if (item == null)
         {
             return;
+        }
+
+        //tell the cooking station to remove this ingredient.
+        if (cookingStation != null && stationSlot >= 0)
+        {
+            cookingStation.RemoveIngredientAt(stationSlot);
         }
 
         //get the prefab from the scriptable object

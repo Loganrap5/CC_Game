@@ -8,7 +8,7 @@ public class HoldInteraction : Interaction
     public float requiredTime;
 
     private float timer;
-    private Player player;
+    public Player player;
     private bool interacting;
 
     public override void StartInteraction(Player player)
@@ -62,5 +62,10 @@ public class HoldInteraction : Interaction
 
 
         Complete();
+    }
+
+    public void SetInteractionTime(float time)
+    {
+        requiredTime = time;
     }
 }
