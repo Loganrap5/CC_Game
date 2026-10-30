@@ -39,10 +39,10 @@ public class CameraControls : MonoBehaviour
 
         pitch = Mathf.Clamp(pitch, -90f, 90f);
 
-        // Player rotates horizontally
+        //Player rotates horizontally
         player.rotation = Quaternion.Euler(0f, yaw, 0f);
 
-        // Camera looks vertically
+        //Camera looks vertically
         transform.position = target.position;
         transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
     }

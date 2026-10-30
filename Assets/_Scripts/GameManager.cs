@@ -17,9 +17,12 @@ public class GameManager : MonoBehaviour
 
     //public List<Car> cars = new List<Car>();
 
-    public Car car; 
+    public Car car;
 
 
+    [Header("Game Points")]
+    public int pointsEarned;
+    public int totalPointsAvailable;
 
     //Debugging
     [ContextMenu("Start Game")]
