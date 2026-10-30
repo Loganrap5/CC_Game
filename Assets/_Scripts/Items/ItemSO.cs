@@ -5,4 +5,6 @@ public class ItemSO : ScriptableObject
 {
     public string itemName; 
     public GameObject obj;
+
+    public int index;
 }

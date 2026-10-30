@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b498eb3b7f35aa94da4595b9a5c66a53, type: 3}
+  m_Name: GD_Tentacles
+  m_EditorClassIdentifier: Assembly-CSharp::GrillData
+  meatStages:
+  - {fileID: 11400000, guid: c9dad3089c04da6499be9bbb729bdac2, type: 2}
+  - {fileID: 11400000, guid: 01246eb444f01494da87c40736cfa843, type: 2}
+  - {fileID: 11400000, guid: 306ea0993eefdcf418440b68f3f22dcf, type: 2}
+  - {fileID: 11400000, guid: db30294050b36b641a4c28f72a18eec7, type: 2}
+  timeToCook: 5

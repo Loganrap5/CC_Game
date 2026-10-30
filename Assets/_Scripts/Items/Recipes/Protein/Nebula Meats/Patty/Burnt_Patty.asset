@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Burnt Patty
   obj: {fileID: 3107080217077861629, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+  index: 3

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Kebab Chunks
   obj: {fileID: 1671319375119523666, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+  index: 2

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Space Dog
   obj: {fileID: 4839250405647812933, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+  index: 2

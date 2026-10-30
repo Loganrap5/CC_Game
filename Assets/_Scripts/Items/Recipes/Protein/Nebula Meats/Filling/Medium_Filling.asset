@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Toastie Filling
   obj: {fileID: 6672849251481090346, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+  index: 2

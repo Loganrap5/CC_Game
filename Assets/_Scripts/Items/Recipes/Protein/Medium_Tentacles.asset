@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Tentacles
   obj: {fileID: 4997071197456389429, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+  index: 2

@@ -18,6 +18,8 @@ public class Car : MonoBehaviour
         interaction = GetComponentInChildren<PressInteraction>();
 
         interaction.OnComplete += DeliverFood;
+
+        // tttttt
     }
 
     public void DeliverFood()

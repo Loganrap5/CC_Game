@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Burnt Wrap Strips
   obj: {fileID: 6063585156028480000, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+  index: 3

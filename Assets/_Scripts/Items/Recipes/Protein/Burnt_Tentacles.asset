@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Burnt Tentacles
   obj: {fileID: 5379307360750402333, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+  index: 3

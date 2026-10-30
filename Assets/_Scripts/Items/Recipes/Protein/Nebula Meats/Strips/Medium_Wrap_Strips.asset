@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Wrap Strips
   obj: {fileID: 6715210117545857663, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+  index: 2

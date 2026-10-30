@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b498eb3b7f35aa94da4595b9a5c66a53, type: 3}
+  m_Name: GD_Burger
+  m_EditorClassIdentifier: Assembly-CSharp::GrillData
+  meatStages:
+  - {fileID: 11400000, guid: 2a0342b26a37cd246b50d9a707894a12, type: 2}
+  - {fileID: 11400000, guid: 1da27b9ddf887e04d952b2c91eedd111, type: 2}
+  - {fileID: 11400000, guid: 5e84a5faf247d6246adc4b8ad52c5a58, type: 2}
+  - {fileID: 11400000, guid: 0849a8cc009e267488c6fd908e1076c4, type: 2}
+  timeToCook: 7.5

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Burnt Space Dog
   obj: {fileID: 6293752136225916774, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+  index: 3

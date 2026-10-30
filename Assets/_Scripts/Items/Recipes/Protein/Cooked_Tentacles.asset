@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Cooked Tentacles
   obj: {fileID: 1301053048538645724, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+  index: 1

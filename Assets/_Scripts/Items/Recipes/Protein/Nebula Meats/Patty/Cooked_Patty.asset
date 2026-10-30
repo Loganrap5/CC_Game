@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Cooked Patty
   obj: {fileID: 4942729480238569172, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+  index: 1

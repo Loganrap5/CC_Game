@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Medium Patty
   obj: {fileID: 2917310668458365660, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+  index: 2

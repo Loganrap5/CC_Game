@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactor
   interactorSource: {fileID: 2124837161917467087}
-  interactRange: 5
+  interactRange: 7.5
 --- !u!143 &8327336340432952773
 CharacterController:
   m_ObjectHideFlags: 0

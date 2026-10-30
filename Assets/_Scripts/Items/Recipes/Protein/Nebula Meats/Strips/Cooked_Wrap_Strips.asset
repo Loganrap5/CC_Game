@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Cooked Wrap Strips
   obj: {fileID: 4912865449053081992, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+  index: 1
