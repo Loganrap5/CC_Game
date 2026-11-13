@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 public class PickupInteraction : Interaction
@@ -11,6 +12,9 @@ public class PickupInteraction : Interaction
 
     //Grill
     private Grill grill;
+
+    //FMOD
+    [SerializeField] EventReference itemPickup;
 
     public void SetCookingStation(CookingStation station, int slot)
     {
@@ -51,6 +55,9 @@ public class PickupInteraction : Interaction
 
         //get the prefab from the scriptable object
         player.carriedItem = item.itemData.obj;
+
+        //FMOD
+        RuntimeManager.PlayOneShot(itemPickup);
 
         //then get rid of the object
         Destroy(gameObject);

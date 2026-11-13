@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     Animator animator;
 
+    //FMOD
     [SerializeField] private EventReference footstepEvent;
 
     private void Awake()
@@ -76,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", speed);
     }
 
+    //FMOD
     public void PlayFootstep()
     {
         RuntimeManager.PlayOneShot(footstepEvent, transform.position);

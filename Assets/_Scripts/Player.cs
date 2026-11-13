@@ -1,7 +1,8 @@
 using NUnit.Framework;
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic; 
+using System.Collections.Generic;
+using FMODUnity;
 
 public class Player : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class Player : MonoBehaviour
     public Transform eyes;
     public float dropRange = 1f;
 
+    //FMOD
+    [SerializeField] EventReference itemDrop; 
+
     public void DropItem()    // TODO -- Right now it just drops the first item in line in the inventory, or wont if its empty. will change later. 
     {
         if (carriedItem == null) return;
@@ -28,6 +32,9 @@ public class Player : MonoBehaviour
             hitLoc.y = 0.5f;
             Instantiate(carriedItem.gameObject, hitLoc, Quaternion.identity);
 
+            //FMOD
+            RuntimeManager.PlayOneShot(itemDrop);
+
             carriedItem = null; 
         }
         else
@@ -35,6 +42,9 @@ public class Player : MonoBehaviour
             Vector3 playerForward = eyes.transform.position + eyes.transform.forward * dropRange;
 
             Instantiate(carriedItem.gameObject, playerForward, Quaternion.identity);
+
+            //FMOD
+            RuntimeManager.PlayOneShot(itemDrop);
 
             carriedItem = null; 
         }

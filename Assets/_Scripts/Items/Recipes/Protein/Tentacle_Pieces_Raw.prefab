@@ -370,6 +370,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91be763cb94c90d42850d541ccd61a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
+  itemPickup:
+    Guid:
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &1527532136624120925
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1485,6 +1485,13 @@ MonoBehaviour:
   carriedItem: {fileID: 0}
   eyes: {fileID: 2124837161917467087}
   dropRange: 1
+  itemDrop:
+    Guid:
+      Data1: -1712665283
+      Data2: 1193267672
+      Data3: -1363249497
+      Data4: 1088508765
+    Path: event:/Interactables/Item Drop
 --- !u!114 &5876165482182866233
 MonoBehaviour:
   m_ObjectHideFlags: 0
