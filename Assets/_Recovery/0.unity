@@ -406,6 +406,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 3528015412399703874, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.482
@@ -2606,6 +2626,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toastie_Filling_Raw (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2658,6 +2698,26 @@ PrefabInstance:
     - target: {fileID: 1449355956233796238, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 5994251237498520599, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
       propertyPath: m_Name
@@ -4998,6 +5058,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 8763193126513570062, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
       propertyPath: m_Name
       value: Space_Dog_Raw (1)
@@ -6239,8 +6319,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
       propertyPath: itemPickup.Path
       value: event:/Interactables/Item Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 7224667122083743124, guid: 4c1da48936e259c4cac0003a45c3bf99, type: 3}
       propertyPath: itemPickup.Guid.Data1
@@ -8145,6 +8245,26 @@ PrefabInstance:
     - target: {fileID: 370898266848150507, guid: f106bebd4528dc44995b63344d42e571, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 7532128855577402918, guid: f106bebd4528dc44995b63344d42e571, type: 3}
       propertyPath: m_Name
@@ -10504,6 +10624,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 2601657800958684452, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601657800958684452, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601657800958684452, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601657800958684452, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601657800958684452, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 3107080217077861629, guid: 7d942a1efe3bca9429483d056103f190, type: 3}
       propertyPath: m_Name
       value: Burnt_Patty
@@ -12716,6 +12856,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7508981324148710205, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508981324148710205, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508981324148710205, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508981324148710205, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508981324148710205, guid: 50490b9cbc1c12d4b8ea1b8ce3c2df8e, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12867,6 +13027,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3655115968232486185, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655115968232486185, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655115968232486185, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655115968232486185, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655115968232486185, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 8995532490363885891, guid: 03df699fe7828494189a1b07223d0fd5, type: 3}
       propertyPath: m_Name
       value: Kebab_Chunks_Burnt
@@ -12972,6 +13152,26 @@ PrefabInstance:
     - target: {fileID: 404452391108152704, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561316125263231120, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 8763193126513570062, guid: 7dc3a9a457e19924d8a943e1b876d318, type: 3}
       propertyPath: m_Name
@@ -13084,6 +13284,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 1254596293450799170, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254596293450799170, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254596293450799170, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254596293450799170, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254596293450799170, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 1301053048538645724, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
       propertyPath: m_Name
       value: Tentacle_Pieces_Cooked
@@ -13324,6 +13544,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Starspawn_Tentacles
       objectReference: {fileID: 0}
+    - target: {fileID: 7585169024084275678, guid: 4daba7cdb59fdd44f8121cb46b69fb8b, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585169024084275678, guid: 4daba7cdb59fdd44f8121cb46b69fb8b, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585169024084275678, guid: 4daba7cdb59fdd44f8121cb46b69fb8b, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585169024084275678, guid: 4daba7cdb59fdd44f8121cb46b69fb8b, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585169024084275678, guid: 4daba7cdb59fdd44f8121cb46b69fb8b, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13543,6 +13783,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 326719799023543996, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 326719799023543996, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 326719799023543996, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 326719799023543996, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 326719799023543996, guid: 626fe880ed2305041985b69e10649faf, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 4912865449053081992, guid: 626fe880ed2305041985b69e10649faf, type: 3}
       propertyPath: m_Name
       value: Wrap_Strips_Cooked
@@ -14514,6 +14774,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nebula Meat Chunk
       objectReference: {fileID: 0}
+    - target: {fileID: 3924657717614942618, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924657717614942618, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924657717614942618, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924657717614942618, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924657717614942618, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 6496110783606525743, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.09616995
@@ -14663,6 +14943,26 @@ PrefabInstance:
     - target: {fileID: 178752754672487031, guid: ca7d572349452a4459113eff534dcd33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588725426164456758, guid: ca7d572349452a4459113eff534dcd33, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588725426164456758, guid: ca7d572349452a4459113eff534dcd33, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588725426164456758, guid: ca7d572349452a4459113eff534dcd33, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588725426164456758, guid: ca7d572349452a4459113eff534dcd33, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588725426164456758, guid: ca7d572349452a4459113eff534dcd33, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 7100811158184895909, guid: ca7d572349452a4459113eff534dcd33, type: 3}
       propertyPath: m_Name
@@ -15237,6 +15537,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toastie_Filling_Burnt
       objectReference: {fileID: 0}
+    - target: {fileID: 2984767441730383894, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984767441730383894, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984767441730383894, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984767441730383894, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984767441730383894, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 4276691555598754514, guid: 63ba84441d1608a40b4a9afd0b81336a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.41017
@@ -15492,6 +15812,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903161524808384496, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903161524808384496, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903161524808384496, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903161524808384496, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903161524808384496, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 4997071197456389429, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
       propertyPath: m_Name
       value: Tentacle_Pieces_Medium
@@ -15524,6 +15864,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704046894150275498, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 3528015412399703874, guid: c1c630078c85e864ca51faaaffa5eb02, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.12417
@@ -15710,6 +16070,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toastie_Filling_Raw
       objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482702464006390572, guid: c044071c5ed2a5149b9279f034cdf243, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15766,6 +16146,26 @@ PrefabInstance:
     - target: {fileID: 5562411542492900825, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951273159387956441, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951273159387956441, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951273159387956441, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951273159387956441, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951273159387956441, guid: 13a5ad89cf8c9854c800ac62769ba4fa, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16516,6 +16916,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 1242334938777013835, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242334938777013835, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242334938777013835, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242334938777013835, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242334938777013835, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 1772641319680935638, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2861695
@@ -16612,6 +17032,26 @@ PrefabInstance:
     - target: {fileID: 1449355956233796238, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982967362190583280, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 5994251237498520599, guid: 5a298eda9379a0247becb7e48c374778, type: 3}
       propertyPath: m_Name
@@ -17145,6 +17585,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3961359249589055189, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961359249589055189, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961359249589055189, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961359249589055189, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961359249589055189, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 6293752136225916774, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
       propertyPath: m_Name
       value: Space_Dog_Burnt
@@ -17313,6 +17773,26 @@ PrefabInstance:
     - target: {fileID: 4839250405647812933, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
       propertyPath: m_Name
       value: Space_Dog_Medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235712835388305149, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235712835388305149, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235712835388305149, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235712835388305149, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235712835388305149, guid: 027fbd3141b21f944b1992525b7d7067, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19633,6 +20113,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 60031342822276383, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 60031342822276383, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 60031342822276383, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 60031342822276383, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 60031342822276383, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 1671319375119523666, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
       propertyPath: m_Name
       value: Kebab_Chunks_Medium
@@ -20022,6 +20522,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 1300407496096924679, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300407496096924679, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300407496096924679, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300407496096924679, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300407496096924679, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 2401876948111927783, guid: 035e49ec08fd3e84abc153be706a8f4b, type: 3}
       propertyPath: m_Name
       value: Toastie_Filling_Cooked
@@ -20257,6 +20777,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 3498183638881938998, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498183638881938998, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498183638881938998, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498183638881938998, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498183638881938998, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 5379307360750402333, guid: c1cef963e95ab1641ac4e0e4c8cc0dca, type: 3}
       propertyPath: m_Name
       value: Tentacle_Pieces_Burnt
@@ -20583,6 +21123,26 @@ PrefabInstance:
     - target: {fileID: 370898266848150507, guid: f106bebd4528dc44995b63344d42e571, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731906530485813469, guid: f106bebd4528dc44995b63344d42e571, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 7532128855577402918, guid: f106bebd4528dc44995b63344d42e571, type: 3}
       propertyPath: m_Name
@@ -21029,6 +21589,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557497448}
     m_Modifications:
+    - target: {fileID: 2217051202311443864, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217051202311443864, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217051202311443864, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217051202311443864, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217051202311443864, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
+      objectReference: {fileID: 0}
     - target: {fileID: 6715210117545857663, guid: 6ef272dc7fbe371448efe74dd3366a28, type: 3}
       propertyPath: m_Name
       value: Wrap_Strips_Medium
@@ -21244,6 +21824,26 @@ PrefabInstance:
     - target: {fileID: 6672849251481090346, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
       propertyPath: m_Name
       value: Toastie_Filling_Medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753083910354599995, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753083910354599995, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753083910354599995, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753083910354599995, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753083910354599995, guid: 1413d3e2ad627b94c9fecc42ae1ff098, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21685,6 +22285,26 @@ PrefabInstance:
     - target: {fileID: 2917310668458365660, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
       propertyPath: m_Name
       value: Medium_Patty
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256569749364017365, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+      propertyPath: itemDrop.Path
+      value: event:/Interactables/Item Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256569749364017365, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+      propertyPath: itemDrop.Guid.Data1
+      value: -1712665283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256569749364017365, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+      propertyPath: itemDrop.Guid.Data2
+      value: 1193267672
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256569749364017365, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+      propertyPath: itemDrop.Guid.Data3
+      value: -1363249497
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256569749364017365, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
+      propertyPath: itemDrop.Guid.Data4
+      value: 1088508765
       objectReference: {fileID: 0}
     - target: {fileID: 9215176310743087159, guid: 02271e5c8fe5d9d4f9df08040e335f99, type: 3}
       propertyPath: m_LocalPosition.x

@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     public float dropRange = 1f;
 
     //FMOD
-    [SerializeField] EventReference itemDrop; 
+    public EventReference itemDrop; 
 
     public void DropItem()    // TODO -- Right now it just drops the first item in line in the inventory, or wont if its empty. will change later. 
     {
