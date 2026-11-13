@@ -52,9 +52,10 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 5387879613840435909}
+  - {fileID: 4174194140711458891}
   MinDistance: 1
   MaxDistance: 20
-  Length: 308700
+  Length: 306809
 --- !u!114 &-4977907771567204158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,10 +71,10 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639301165459318246
+  lastModified: 639301592696702028
   FileSizes:
   - Name: Desktop
-    Value: 3589056
+    Value: 5615424
   Exists: 1
 --- !u!114 &-1797550393145094385
 MonoBehaviour:
@@ -183,7 +184,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639301165459338388
+  cacheTime: 639301592696722153
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
@@ -195,6 +196,30 @@ MonoBehaviour:
     index: 3
   - key: event:/Interactables/Item Pickup
     index: 4
+--- !u!114 &4174194140711458891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music System/Pause
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Pause
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 977618383
+    data2: 3977974670
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5387879613840435909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,8 +259,8 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639301165459338388
+  lastModified: 639301592696722153
   FileSizes:
   - Name: Desktop
-    Value: 1042
+    Value: 1090
   Exists: 1
