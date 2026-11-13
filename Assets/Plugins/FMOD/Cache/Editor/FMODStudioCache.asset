@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639301055185183884
+  lastModified: 639301063419378825
   FileSizes:
   - Name: Desktop
-    Value: 1973888
+    Value: 3505472
   Exists: 1
 --- !u!114 &-1797550393145094385
 MonoBehaviour:
@@ -68,13 +68,13 @@ MonoBehaviour:
     Data4: 1603941509
   Banks:
   - {fileID: -4977907771567204158}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 60000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639301055185193900
+  cacheTime: 639301063419424793
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639301055185193900
+  lastModified: 639301063419424793
   FileSizes:
   - Name: Desktop
     Value: 894
