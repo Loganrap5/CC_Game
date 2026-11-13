@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4706726931573435364}
   - component: {fileID: 267411249615562458}
   - component: {fileID: 1324905058254628418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -129,7 +129,8 @@ GameObject:
   - component: {fileID: 9180861627054120157}
   - component: {fileID: 7585169024084275678}
   - component: {fileID: 2436063758369257028}
-  m_Layer: 0
+  - component: {fileID: 4769987974918895060}
+  m_Layer: 7
   m_Name: Starspawn_Tentacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,6 +270,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: b93ee6cd400bcd44f9aaab8892563491, type: 2}
+--- !u!54 &4769987974918895060
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3599633071081360199}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5561864668390844603
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +309,7 @@ GameObject:
   - component: {fileID: 8742705479380735345}
   - component: {fileID: 3498248048285531781}
   - component: {fileID: 7308792205925869576}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +405,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -395,7 +423,7 @@ GameObject:
   - component: {fileID: 7114513100969122438}
   - component: {fileID: 6695369802335719893}
   - component: {fileID: 2918672022985011073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +519,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2

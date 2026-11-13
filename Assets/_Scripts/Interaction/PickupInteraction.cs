@@ -12,6 +12,9 @@ public class PickupInteraction : Interaction
     //Grill
     private Grill grill;
 
+    //Cutting board
+    private CuttingBoard cuttingBoard;
+
     public void SetCookingStation(CookingStation station, int slot)
     {
         cookingStation = station;
@@ -21,6 +24,11 @@ public class PickupInteraction : Interaction
     public void SetGrill(Grill g)
     {
         grill = g;
+    }
+
+    public void SetCuttingBoard(CuttingBoard c)
+    {
+        cuttingBoard = c;
     }
 
 
@@ -47,6 +55,11 @@ public class PickupInteraction : Interaction
         if(grill != null)
         {
             grill.RemoveIngredient();
+        }
+
+        if(cuttingBoard != null)
+        {
+            cuttingBoard.RemoveIngredient();
         }
 
         //get the prefab from the scriptable object

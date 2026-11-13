@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1158713409409068481}
   - component: {fileID: 2732980305896874317}
   - component: {fileID: 225898141081569705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2064663229601755200}
   - component: {fileID: 8683125618639137272}
   - component: {fileID: 1356870289938123644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 1333626265189757617}
   - component: {fileID: 7011870970860601651}
   - component: {fileID: 4641431384973266502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -351,7 +351,8 @@ GameObject:
   - component: {fileID: 3363983438801148450}
   - component: {fileID: 3655115968232486185}
   - component: {fileID: 6307801394809013291}
-  m_Layer: 0
+  - component: {fileID: 5505105297487510586}
+  m_Layer: 7
   m_Name: Kebab_Chunks_Burnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,3 +492,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: c98504d22d67bf246a14b03fa7c619ee, type: 2}
+--- !u!54 &5505105297487510586
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995532490363885891}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

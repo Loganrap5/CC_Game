@@ -7,9 +7,9 @@ public class HoldInteraction : Interaction
 
     public float requiredTime;
 
-    private float timer;
+    public float timer;
     public Player player;
-    private bool interacting;
+    public bool interacting;
 
     public override void StartInteraction(Player player)
     {
@@ -25,6 +25,8 @@ public class HoldInteraction : Interaction
             return;
 
         timer += Time.deltaTime;
+
+        Debug.Log("Timer: " + timer + " / Required: " + requiredTime);
 
         float progress = timer / requiredTime;
 

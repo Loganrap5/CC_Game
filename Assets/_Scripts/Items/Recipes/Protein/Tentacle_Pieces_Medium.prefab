@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8262606749399453930}
   - component: {fileID: 840212657488262264}
   - component: {fileID: 9095855666302452708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4320490493094212730}
   - component: {fileID: 4981088178570675804}
   - component: {fileID: 2794161954786237752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -243,7 +243,8 @@ GameObject:
   - component: {fileID: 3064586412329399589}
   - component: {fileID: 1903161524808384496}
   - component: {fileID: 6502599930519023248}
-  m_Layer: 0
+  - component: {fileID: 6420687991251199584}
+  m_Layer: 7
   m_Name: Tentacle_Pieces_Medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,6 +384,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 306ea0993eefdcf418440b68f3f22dcf, type: 2}
+--- !u!54 &6420687991251199584
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997071197456389429}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7940525450202349722
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +423,7 @@ GameObject:
   - component: {fileID: 8437111556990413866}
   - component: {fileID: 992853688024444505}
   - component: {fileID: 8995563376941726327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +519,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2

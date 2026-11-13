@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 2859131031301893640}
   - component: {fileID: 7508981324148710205}
   - component: {fileID: 2949385490895716993}
-  m_Layer: 0
+  - component: {fileID: 5618590230557463835}
+  m_Layer: 7
   m_Name: Cooked_Patty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,3 +153,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 1da27b9ddf887e04d952b2c91eedd111, type: 2}
+--- !u!54 &5618590230557463835
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942729480238569172}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

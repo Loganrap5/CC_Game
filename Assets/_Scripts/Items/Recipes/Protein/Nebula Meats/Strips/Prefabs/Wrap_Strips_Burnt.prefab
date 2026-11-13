@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9197457166264029399}
   - component: {fileID: 7273066282438468056}
   - component: {fileID: 11826578173195151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: strip pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2288798431978087305}
   - component: {fileID: 4675518622761676718}
   - component: {fileID: 6789640421188050840}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: strip pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 3863427342302469883}
   - component: {fileID: 933945774447192966}
   - component: {fileID: 1555550218132027233}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: strip pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 4910427592133287936}
   - component: {fileID: 5300850089534607795}
   - component: {fileID: 3222910807590490234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: strip pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -463,7 +463,8 @@ GameObject:
   - component: {fileID: 3990404516017338903}
   - component: {fileID: 1242334938777013835}
   - component: {fileID: 6634900562920356927}
-  m_Layer: 0
+  - component: {fileID: 7090835241504334858}
+  m_Layer: 7
   m_Name: Wrap_Strips_Burnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,6 +606,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 1712b4b013074de40a5f842e2bfbc2a2, type: 2}
+--- !u!54 &7090835241504334858
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063585156028480000}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6368560845646995209
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +645,7 @@ GameObject:
   - component: {fileID: 2638328582152311312}
   - component: {fileID: 6575300804111431518}
   - component: {fileID: 4465454677835603107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: strip pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +741,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

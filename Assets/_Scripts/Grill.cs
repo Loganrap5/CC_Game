@@ -92,6 +92,9 @@ public class Grill : MonoBehaviour
         //Spawn item on grill
         spawnedObject = Instantiate(item.itemData.obj, ingredientLoc.position, Quaternion.identity);
 
+        //Prevent object from moving
+        spawnedObject.GetComponent<Rigidbody>().isKinematic = true;
+
         //Assign reference
         itemRef = item.itemData;
 
@@ -107,55 +110,10 @@ public class Grill : MonoBehaviour
         interaction.player.carriedItem = null;
 
         StartGrill();
-
-        //if (interaction.player.carriedItem == null || populated)
-        //    return;
-
-        //if (interaction.player.carriedItem != null)
-        //{
-        //    Debug.Log("Item placed");
-
-        //    Item item = interaction.player.carriedItem.GetComponent<Item>();
-
-        //    if (item == null)
-        //        return;
-
-        //    //Spawn item on grill
-        //    spawnedObject = Instantiate(item.itemData.obj, ingredientLoc.position, Quaternion.identity);
-
-        //    //Assign reference
-        //    itemRef = item.itemData;
-
-        //    //Inside the ItemSO, set this Grill as its reference, so when it's picked up it can stop this grill from doing it's thing. 
-        //    //itemRef.GetComponent<PickupInteraction>().SetGrill(this);
-
-        //    PickupInteraction pickup = spawnedObject.GetComponent<PickupInteraction>();
-
-        //    if (pickup != null)
-        //        pickup.SetGrill(this);
-
-        //    //Remove item from player inventory
-        //    interaction.player.carriedItem = null;
-
-        //    return;
-        //}
-
-        //StartGrill();
     }
 
     public void StartGrill()
     {
-        Debug.Log("Grill started");
-
-        ////First compare the beginning type (raw meat) to the grilldata to tell the game what type of meat to cook up to.
-        //for(int i = 0; i < data.Count; i++)
-        //{
-        //    if (data[i].meatStages[0] == itemRef)
-        //    {
-        //        currentGrillData = data[i];
-        //    }
-        //    else continue;
-        //}
 
         for (int i = 0; i < data.Count; i++)   //Check all meat data
         {
@@ -194,6 +152,9 @@ public class Grill : MonoBehaviour
 
         //Spawn new temp of meat
         spawnedObject = Instantiate(currentGrillData.meatStages[index].obj, ingredientLoc.position, Quaternion.identity);
+
+        //Prevent object from moving
+        spawnedObject.GetComponent<Rigidbody>().isKinematic = true; 
 
         PickupInteraction pickup = spawnedObject.GetComponent<PickupInteraction>();
 

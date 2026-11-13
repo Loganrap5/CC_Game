@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 8769058497505856206}
   - component: {fileID: 8482702464006390572}
   - component: {fileID: 7496387657882517614}
-  m_Layer: 0
+  - component: {fileID: 7173103042675549135}
+  m_Layer: 7
   m_Name: Toastie_Filling_Raw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,6 +154,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: f85b7d4f572c40f448b50adf362022d0, type: 2}
+--- !u!54 &7173103042675549135
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958773339067266894}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5177905123472834930
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +193,7 @@ GameObject:
   - component: {fileID: 4756055631235920838}
   - component: {fileID: 9008414144073914444}
   - component: {fileID: 3629797955974719884}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: p
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +289,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

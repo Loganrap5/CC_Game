@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 4000320905190002737}
   - component: {fileID: 7224667122083743124}
   - component: {fileID: 1215992373087908459}
-  m_Layer: 0
+  - component: {fileID: 8819297878902663004}
+  m_Layer: 7
   m_Name: Patty_Raw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,8 +114,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0000001, y: 5.0422106, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 1.5211059, z: -0.00000011920929}
+  m_Size: {x: 1.0000001, y: 5.0525575, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 1.5159323, z: -0.00000011920929}
 --- !u!114 &4000320905190002737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,3 +153,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 2a0342b26a37cd246b50d9a707894a12, type: 2}
+--- !u!54 &8819297878902663004
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6899314256780718873}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1

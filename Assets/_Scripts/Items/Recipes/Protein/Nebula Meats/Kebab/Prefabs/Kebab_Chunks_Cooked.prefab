@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3854337739301162920}
   - component: {fileID: 420358112276915715}
   - component: {fileID: 523760676138322432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -127,7 +127,8 @@ GameObject:
   - component: {fileID: 4503138216759031773}
   - component: {fileID: 8951273159387956441}
   - component: {fileID: 8367348415737334988}
-  m_Layer: 0
+  - component: {fileID: 302832871309611712}
+  m_Layer: 7
   m_Name: Kebab_Chunks_Cooked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,6 +268,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 8bcbc685d8eac974db94274ba3fac4ed, type: 2}
+--- !u!54 &302832871309611712
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182442792819413372}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8519472154984220211
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +307,7 @@ GameObject:
   - component: {fileID: 7051005729271627084}
   - component: {fileID: 1025373798611403514}
   - component: {fileID: 3814916961938048460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +403,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -391,7 +419,7 @@ GameObject:
   - component: {fileID: 2010404510230693211}
   - component: {fileID: 4511772443328537727}
   - component: {fileID: 6274318732297097728}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kebab pieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +515,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
