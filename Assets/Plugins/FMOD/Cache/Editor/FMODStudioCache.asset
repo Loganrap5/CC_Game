@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639301063419378825
+  lastModified: 639301113976876545
   FileSizes:
   - Name: Desktop
-    Value: 3505472
+    Value: 3542080
   Exists: 1
 --- !u!114 &-1797550393145094385
 MonoBehaviour:
@@ -75,6 +75,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
+--- !u!114 &-34915931699511741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footstep
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Player/Footstep
+  Guid:
+    Data1: -1349631631
+    Data2: 1092087345
+    Data3: -1570912066
+    Data4: -1018595076
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,18 +120,21 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -5375351179365396144}
   - {fileID: -1797550393145094385}
+  - {fileID: -34915931699511741}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4977907771567204158}
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639301063419424793
+  cacheTime: 639301113976886627
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
   - key: event:/Ambiance/Room Tone
     index: 1
+  - key: event:/Player/Footstep
+    index: 2
 --- !u!114 &5387879613840435909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,8 +174,8 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639301063419424793
+  lastModified: 639301113976886627
   FileSizes:
   - Name: Desktop
-    Value: 894
+    Value: 940
   Exists: 1

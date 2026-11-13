@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     Interactor interactor;
 
     Animator animator;
+
+    [SerializeField] private EventReference footstepEvent;
 
     private void Awake()
     {
@@ -71,5 +74,10 @@ public class PlayerMovement : MonoBehaviour
         float speed = moveInput.magnitude;
 
         animator.SetFloat("Speed", speed);
+    }
+
+    public void PlayFootstep()
+    {
+        RuntimeManager.PlayOneShot(footstepEvent, transform.position);
     }
 }
