@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6116430489138891413
+--- !u!114 &-5375351179365396144
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TEST
+  m_Name: event:/Music/Music System
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/TEST
+  Path: event:/Music/Music System
   Guid:
-    Data1: -424936481
-    Data2: 1081295060
-    Data3: 1239769021
-    Data4: -160222127
+    Data1: 434321576
+    Data2: 1095775333
+    Data3: 2122919614
+    Data4: -1812575622
   Banks:
   - {fileID: -4977907771567204158}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5387879613840435909}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 308700
 --- !u!114 &-4977907771567204158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +43,38 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639274466625766360
+  lastModified: 639301055185183884
   FileSizes:
   - Name: Desktop
-    Value: 9440
+    Value: 1973888
   Exists: 1
+--- !u!114 &-1797550393145094385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiance/Room Tone
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambiance/Room Tone
+  Guid:
+    Data1: 1765605321
+    Data2: 1288938533
+    Data3: -1000343921
+    Data4: 1603941509
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,17 +91,44 @@ MonoBehaviour:
   - {fileID: 7540292967650108511}
   - {fileID: -4977907771567204158}
   EditorEvents:
-  - {fileID: -6116430489138891413}
+  - {fileID: -5375351179365396144}
+  - {fileID: -1797550393145094385}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4977907771567204158}
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639274466625776353
+  cacheTime: 639301055185193900
   SerializableEventsDict:
-  - key: event:/TEST
+  - key: event:/Music/Music System
     index: 0
+  - key: event:/Ambiance/Room Tone
+    index: 1
+--- !u!114 &5387879613840435909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music System/Music State
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Music State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2048653421
+    data2: 4075604429
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7540292967650108511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,8 +144,8 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639274466625776353
+  lastModified: 639301055185193900
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 894
   Exists: 1
