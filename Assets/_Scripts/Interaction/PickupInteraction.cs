@@ -6,12 +6,15 @@ public class PickupInteraction : Interaction
     //This class is for whenever you want an object to be picked up and stored. 
     //Put this Class on along with Interactable.cs on the object. 
 
-
+    //Cooking station
     private CookingStation cookingStation;
     private int stationSlot = -1;
 
     //Grill
     private Grill grill;
+
+    //Cutting board
+    private CuttingBoard cuttingBoard;
 
     //FMOD
     public EventReference itemPickup;
@@ -26,6 +29,11 @@ public class PickupInteraction : Interaction
     public void SetGrill(Grill g)
     {
         grill = g;
+    }
+
+    public void SetCuttingBoard(CuttingBoard c)
+    {
+        cuttingBoard = c;
     }
 
 
@@ -52,6 +60,11 @@ public class PickupInteraction : Interaction
         if(grill != null)
         {
             grill.RemoveIngredient();
+        }
+
+        if (cuttingBoard != null)
+        {
+            cuttingBoard.RemoveIngredient();
         }
 
         //get the prefab from the scriptable object
