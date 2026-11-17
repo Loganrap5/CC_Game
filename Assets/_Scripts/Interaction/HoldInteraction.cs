@@ -11,12 +11,15 @@ public class HoldInteraction : Interaction
     public Player player;
     public bool interacting;
 
-    public override void StartInteraction(Player player)
+    public override void StartInteraction(Player _player)
     {
-        this.player = player;
+        this.player = _player;
 
         timer = 0f;
         interacting = true;
+
+        player.isHoldingDown = true;
+        player.movement.animator.SetBool("Holding", player.isHoldingDown);
     }
 
     public override void UpdateInteraction()
@@ -49,6 +52,9 @@ public class HoldInteraction : Interaction
         interacting = false;
         timer = 0f;
 
+        player.isHoldingDown = false;
+        player.movement.animator.SetBool("Holding", player.isHoldingDown);
+
         //reset progress bar here
 
 
@@ -60,6 +66,8 @@ public class HoldInteraction : Interaction
             return;
 
         interacting = false;
+        player.isHoldingDown = false;
+        player.movement.animator.SetBool("Holding", player.isHoldingDown);
 
 
 

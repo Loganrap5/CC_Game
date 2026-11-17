@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b498eb3b7f35aa94da4595b9a5c66a53, type: 3}
+  m_Name: Cheese_CD
+  m_EditorClassIdentifier: Assembly-CSharp::GrillData
+  meatStages:
+  - {fileID: 11400000, guid: 745551f73cdf387409b3392a321bdc59, type: 2}
+  - {fileID: 11400000, guid: fabba7347646529459a341048c929850, type: 2}
+  timeToCook: 0

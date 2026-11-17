@@ -11,14 +11,23 @@ public class Player : MonoBehaviour
     public string name;
     public int playerIndex;
 
-    public GameObject carriedItem = null; 
+    public GameObject carriedItem = null;
+
+    public bool isHoldingDown = false;
+
+    public PlayerMovement movement;
 
     //This is a start point for where items should be dropped and where the player is looking at. 
     public Transform eyes;
     public float dropRange = 1f;
 
     //FMOD
-    public EventReference itemDrop; 
+    public EventReference itemDrop;
+
+    private void Start()
+    {
+        movement = GetComponent<PlayerMovement>();
+    }
 
     public void DropItem()    // TODO -- Right now it just drops the first item in line in the inventory, or wont if its empty. will change later. 
     {
