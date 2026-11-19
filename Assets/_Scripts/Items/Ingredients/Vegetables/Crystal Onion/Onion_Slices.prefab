@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3938433375007799124}
   - component: {fileID: 1761219950936630890}
   - component: {fileID: 4446597742727362211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal_Onion_Slices_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 3822143699348660593}
   - component: {fileID: 3694123446393986107}
   - component: {fileID: 2374213261841722407}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal_Onion_Slices_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,8 @@ GameObject:
   - component: {fileID: 6399232655016613801}
   - component: {fileID: 942956026822781909}
   - component: {fileID: 348815640951637974}
-  m_Layer: 0
+  - component: {fileID: 597116718069933188}
+  m_Layer: 7
   m_Name: Onion_Slices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,18 +295,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &348815640951637974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,6 +313,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 53be5d0eb8baff345872643413923e05, type: 2}
+--- !u!114 &597116718069933188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6271592533243388648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &8743865349467626983
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +336,7 @@ GameObject:
   - component: {fileID: 7301603163005885411}
   - component: {fileID: 2282909082738278848}
   - component: {fileID: 7079160956025945670}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal_Onion_Slices_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +426,7 @@ GameObject:
   - component: {fileID: 8404302520284763}
   - component: {fileID: 5756943848193465202}
   - component: {fileID: 5287028823818901354}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal_Onion_Slices_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

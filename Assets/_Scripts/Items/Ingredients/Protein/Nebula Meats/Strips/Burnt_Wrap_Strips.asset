@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Burnt Wrap Strips
   obj: {fileID: 6063585156028480000, guid: d07e221d2635d5c4f8fc41cac6fb7044, type: 3}
   index: 3
+  placingSFX:
+    Guid:
+      Data1: -1726425391
+      Data2: 1282327858
+      Data3: -952139871
+      Data4: 1508425796
+    Path: event:/Cooking/Meat Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

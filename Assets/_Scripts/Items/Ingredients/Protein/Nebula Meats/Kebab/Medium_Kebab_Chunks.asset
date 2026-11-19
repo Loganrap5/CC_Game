@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Medium Kebab Chunks
   obj: {fileID: 1671319375119523666, guid: e9711d9a5a9033943b174eaa634a852e, type: 3}
   index: 2
+  placingSFX:
+    Guid:
+      Data1: -1726425391
+      Data2: 1282327858
+      Data3: -952139871
+      Data4: 1508425796
+    Path: event:/Cooking/Meat Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

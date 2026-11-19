@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 326719799023543996}
   - component: {fileID: 4971665138019839975}
   - component: {fileID: 2577064585006695570}
+  - component: {fileID: 1807075834859685900}
   m_Layer: 7
   m_Name: Wrap_Strips_Cooked
   m_TagString: Untagged
@@ -148,13 +149,6 @@ MonoBehaviour:
       Data3: 2142299029
       Data4: -1125857460
     Path: event:/Interactables/Item Pickup
-  itemDrop:
-    Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
 --- !u!114 &4971665138019839975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +189,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1807075834859685900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912865449053081992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &8726570740613885790
 GameObject:
   m_ObjectHideFlags: 0

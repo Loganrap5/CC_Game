@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{89535c57-f32e-402a-9cb1-13cc240593e0}">
+		<property name="assetPath">
+			<value>Animals, Dog, Dog, Whining, Whimper, Crying SND147939 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.76627083333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fe6174d5-7021-4667-9ef4-1c65a0f558b9}</destination>
+		</relationship>
+	</object>
+</objects>

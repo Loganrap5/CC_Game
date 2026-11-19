@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Cheese Slices
   obj: {fileID: 5667339524926373068, guid: e8e698d948c6b754fbc5a5679f76661d, type: 3}
   index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: -1470187227
+      Data2: 1265744823
+      Data3: -1086352762
+      Data4: 1715450324
+    Path: event:/Interactables/Drop Cheese

@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 419935066079437994}
   - component: {fileID: 7440928433165242617}
   - component: {fileID: 7198961275604627841}
-  m_Layer: 0
+  - component: {fileID: 909242314755297564}
+  m_Layer: 7
   m_Name: Void_Lettuce_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,18 +170,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &7198961275604627841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,3 +188,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: a6aa2d639e9d5c1458bb1cd9d7d8ecbd, type: 2}
+--- !u!114 &909242314755297564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775867892664214281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision

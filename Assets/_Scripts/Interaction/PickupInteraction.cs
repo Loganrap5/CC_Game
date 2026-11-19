@@ -18,7 +18,6 @@ public class PickupInteraction : Interaction
 
     //FMOD
     public EventReference itemPickup;
-    public EventReference itemDrop;
 
     public void SetCookingStation(CookingStation station, int slot)
     {
@@ -72,8 +71,6 @@ public class PickupInteraction : Interaction
 
         //FMOD
         RuntimeManager.PlayOneShot(itemPickup);
-
-        player.itemDrop = itemDrop;
 
         //then get rid of the object
         Destroy(gameObject);

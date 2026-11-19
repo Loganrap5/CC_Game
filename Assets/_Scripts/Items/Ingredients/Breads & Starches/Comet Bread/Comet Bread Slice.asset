@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Comet Bread Slice
   obj: {fileID: 7416219958587478062, guid: f3f4fd3124b8e8344b60ac40d6ec5fb9, type: 3}
   index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: -1553811096
+      Data2: 1159731246
+      Data3: -162792535
+      Data4: 1513329875
+    Path: event:/Interactables/Drop Bread

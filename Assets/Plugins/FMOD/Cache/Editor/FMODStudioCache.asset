@@ -71,11 +71,92 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639304260754836536
+  lastModified: 639306989327919801
   FileSizes:
   - Name: Desktop
-    Value: 5615424
+    Value: 5741056
   Exists: 1
+--- !u!114 &-4853021387591427294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Veggie
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Veggie
+  Guid:
+    Data1: -2104256208
+    Data2: 1210524935
+    Data3: -1311737705
+    Data4: 900359002
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 283
+--- !u!114 &-2618255240244612378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Bread
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Bread
+  Guid:
+    Data1: -1553811096
+    Data2: 1159731246
+    Data3: -162792535
+    Data4: 1513329875
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 338
+--- !u!114 &-1947403757884793787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Cheese
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Cheese
+  Guid:
+    Data1: -1470187227
+    Data2: 1265744823
+    Data3: -1086352762
+    Data4: 1715450324
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 307
 --- !u!114 &-1797550393145094385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,6 +184,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
+--- !u!114 &-1153557089802018277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Potato
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Potato
+  Guid:
+    Data1: -9499060
+    Data2: 1228791830
+    Data3: -1730175321
+    Data4: 1844029905
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 280
 --- !u!114 &-582049880382265176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,13 +286,22 @@ MonoBehaviour:
   - {fileID: -34915931699511741}
   - {fileID: -9164583705765624221}
   - {fileID: -582049880382265176}
+  - {fileID: 3540687991215245255}
+  - {fileID: 269045308435630600}
+  - {fileID: 391358684401195236}
+  - {fileID: -1947403757884793787}
+  - {fileID: -4853021387591427294}
+  - {fileID: 2993672849296360276}
+  - {fileID: -1153557089802018277}
+  - {fileID: -2618255240244612378}
+  - {fileID: 556930666039181734}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4977907771567204158}
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639304260754846535
+  cacheTime: 639306989327977633
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
@@ -196,6 +313,159 @@ MonoBehaviour:
     index: 3
   - key: event:/Interactables/Item Pickup
     index: 4
+  - key: event:/Cooking/Hot Dog Placement
+    index: 5
+  - key: event:/Cooking/Cooking
+    index: 6
+  - key: event:/Cooking/Meat Placement
+    index: 7
+  - key: event:/Interactables/Drop Cheese
+    index: 8
+  - key: event:/Interactables/Drop Veggie
+    index: 9
+  - key: event:/Interactables/Drop Meat
+    index: 10
+  - key: event:/Interactables/Drop Potato
+    index: 11
+  - key: event:/Interactables/Drop Bread
+    index: 12
+  - key: event:/Interactables/Drop Meat Chunk
+    index: 13
+--- !u!114 &269045308435630600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cooking/Cooking
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cooking/Cooking
+  Guid:
+    Data1: 1694638510
+    Data2: 1107382592
+    Data3: 1496660352
+    Data4: 480878751
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3828
+--- !u!114 &391358684401195236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cooking/Meat Placement
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cooking/Meat Placement
+  Guid:
+    Data1: -1726425391
+    Data2: 1282327858
+    Data3: -952139871
+    Data4: 1508425796
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 443
+--- !u!114 &556930666039181734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Meat Chunk
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Meat Chunk
+  Guid:
+    Data1: 968364945
+    Data2: 1285288779
+    Data3: -1297164918
+    Data4: 1985942020
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 323
+--- !u!114 &2993672849296360276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Drop Meat
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Interactables/Drop Meat
+  Guid:
+    Data1: 730289984
+    Data2: 1324493203
+    Data3: -1514348885
+    Data4: -727095758
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 323
+--- !u!114 &3540687991215245255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cooking/Hot Dog Placement
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cooking/Hot Dog Placement
+  Guid:
+    Data1: 1549368887
+    Data2: 1110974492
+    Data3: 1199200147
+    Data4: 1815240543
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
 --- !u!114 &4174194140711458891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,8 +529,8 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639304260754846535
+  lastModified: 639306989327977633
   FileSizes:
   - Name: Desktop
-    Value: 1090
+    Value: 1500
   Exists: 1

@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Burnt Space Dog
   obj: {fileID: 6293752136225916774, guid: fcd86fe44ef8881458086fe3e3b62d00, type: 3}
   index: 3
+  placingSFX:
+    Guid:
+      Data1: 1549368887
+      Data2: 1110974492
+      Data3: 1199200147
+      Data4: 1815240543
+    Path: event:/Cooking/Hot Dog Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

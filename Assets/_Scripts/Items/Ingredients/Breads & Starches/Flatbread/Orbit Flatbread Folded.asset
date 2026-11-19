@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Orbit flatbread folded
   obj: {fileID: 5751578094096308168, guid: 358767e97f7df2b46ad32c8630a561b9, type: 3}
   index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: -1553811096
+      Data2: 1159731246
+      Data3: -162792535
+      Data4: 1513329875
+    Path: event:/Interactables/Drop Bread

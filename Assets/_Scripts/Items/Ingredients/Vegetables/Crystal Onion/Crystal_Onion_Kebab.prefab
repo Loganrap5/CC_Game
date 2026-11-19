@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 43095060683951555}
   - component: {fileID: 5365468377605385471}
   - component: {fileID: 1460909106181958729}
-  m_Layer: 0
+  - component: {fileID: 6814999213797944453}
+  m_Layer: 7
   m_Name: Crystal_Onion_Kebab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,18 +170,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &1460909106181958729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,3 +188,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: db024eb17de43d34d9b9787b2ec3f54c, type: 2}
+--- !u!114 &6814999213797944453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850888812998655338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision

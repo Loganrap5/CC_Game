@@ -21,9 +21,6 @@ public class Player : MonoBehaviour
     public Transform eyes;
     public float dropRange = 1f;
 
-    //FMOD
-    public EventReference itemDrop;
-
     private void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -41,9 +38,6 @@ public class Player : MonoBehaviour
             hitLoc.y = 0.5f;
             Instantiate(carriedItem.gameObject, hitLoc, Quaternion.identity);
 
-            //FMOD
-            RuntimeManager.PlayOneShot(itemDrop);
-
             carriedItem = null; 
         }
         else
@@ -51,9 +45,6 @@ public class Player : MonoBehaviour
             Vector3 playerForward = eyes.transform.position + eyes.transform.forward * dropRange;
 
             Instantiate(carriedItem.gameObject, playerForward, Quaternion.identity);
-
-            //FMOD
-            RuntimeManager.PlayOneShot(itemDrop);
 
             carriedItem = null; 
         }

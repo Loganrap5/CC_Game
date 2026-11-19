@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1604374924351285784}
   - component: {fileID: 6105630836523402318}
   - component: {fileID: 2125510691227364715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stardust_Topbun_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 603010950354121589}
   - component: {fileID: 526531257592331340}
   - component: {fileID: 7048309587455650797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stardust_Bottombun_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,8 @@ GameObject:
   - component: {fileID: 9148124089744511296}
   - component: {fileID: 8756676758297605294}
   - component: {fileID: 4342391050971378494}
-  m_Layer: 0
+  - component: {fileID: 4661307869695501968}
+  m_Layer: 7
   m_Name: Stardust_Bun_Assembled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,18 +293,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &4342391050971378494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,3 +311,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: ae7257b9371520147b848ad6817fd48a, type: 2}
+--- !u!114 &4661307869695501968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8701831329793097418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision

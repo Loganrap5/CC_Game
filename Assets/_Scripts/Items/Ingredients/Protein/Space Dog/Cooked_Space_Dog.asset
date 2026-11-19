@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Cooked Space Dog
   obj: {fileID: 7100811158184895909, guid: ca7d572349452a4459113eff534dcd33, type: 3}
   index: 1
+  placingSFX:
+    Guid:
+      Data1: 1549368887
+      Data2: 1110974492
+      Data3: 1199200147
+      Data4: 1815240543
+    Path: event:/Cooking/Hot Dog Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

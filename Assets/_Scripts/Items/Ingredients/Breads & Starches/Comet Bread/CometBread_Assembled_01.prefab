@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 8498419987254920439}
   - component: {fileID: 4579839764048130680}
   - component: {fileID: 7950460181999029032}
-  m_Layer: 0
+  - component: {fileID: 4288785013065502928}
+  m_Layer: 7
   m_Name: CometBread_Assembled_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,18 +113,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &7950460181999029032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +131,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: 9d8acfea6075de34881c4c882f3b3655, type: 2}
+--- !u!114 &4288785013065502928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412488852463427856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &1961307748326888821
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +154,7 @@ GameObject:
   - component: {fileID: 4970856287560883571}
   - component: {fileID: 6178432637748629760}
   - component: {fileID: 8452319607924526841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CometBread_Slice_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +244,7 @@ GameObject:
   - component: {fileID: 8596254861725885514}
   - component: {fileID: 219989896711559507}
   - component: {fileID: 2932926301010931334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CometBread_Slice_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

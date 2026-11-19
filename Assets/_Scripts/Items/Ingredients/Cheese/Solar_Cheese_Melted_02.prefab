@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6073275888910413089}
   - component: {fileID: 9177775284060174606}
   - component: {fileID: 2485399874270642511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Melted_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,13 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
     Guid:
       Data1: 0
       Data2: 0

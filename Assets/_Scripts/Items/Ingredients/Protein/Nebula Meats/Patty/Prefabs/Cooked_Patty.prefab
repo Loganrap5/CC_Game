@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 7508981324148710205}
   - component: {fileID: 2949385490895716993}
   - component: {fileID: 5618590230557463835}
+  - component: {fileID: 8167609071259090433}
   m_Layer: 7
   m_Name: Cooked_Patty
   m_TagString: Untagged
@@ -188,13 +189,6 @@ MonoBehaviour:
       Data3: 2142299029
       Data4: -1125857460
     Path: event:/Interactables/Item Pickup
-  itemDrop:
-    Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
 --- !u!114 &2949385490895716993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,3 +229,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8167609071259090433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942729480238569172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5256569749364017365}
   - component: {fileID: 3129082690272583246}
   - component: {fileID: 6858382734084320379}
+  - component: {fileID: -6272041529253966230}
   m_Layer: 7
   m_Name: Medium_Patty
   m_TagString: Untagged
@@ -98,13 +99,6 @@ MonoBehaviour:
       Data3: 2142299029
       Data4: -1125857460
     Path: event:/Interactables/Item Pickup
-  itemDrop:
-    Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
 --- !u!114 &3129082690272583246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +139,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6272041529253966230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917310668458365660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &7513332606396034990
 GameObject:
   m_ObjectHideFlags: 0

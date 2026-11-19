@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()    //Name is very specific be sure it matches
     {
-        SceneManager.LoadScene("0");
+        SceneManager.LoadScene("Main Scene BACKUP");
     }
 
     public void OpenSettingsMenu()

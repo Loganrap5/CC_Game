@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 3068731118082350689}
   - component: {fileID: 1097666016807804190}
   - component: {fileID: 3297482438699310657}
+  - component: {fileID: 4073831821023666911}
   m_Layer: 7
   m_Name: Tentacle_Pieces_Medium
   m_TagString: Untagged
@@ -238,13 +239,6 @@ MonoBehaviour:
       Data3: 2142299029
       Data4: -1125857460
     Path: event:/Interactables/Item Pickup
-  itemDrop:
-    Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
 --- !u!114 &1097666016807804190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +279,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4073831821023666911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532151047893109364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &6648406504801806078
 GameObject:
   m_ObjectHideFlags: 0

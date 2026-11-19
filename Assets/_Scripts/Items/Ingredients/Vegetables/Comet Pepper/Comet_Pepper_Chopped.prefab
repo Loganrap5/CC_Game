@@ -16,7 +16,9 @@ GameObject:
   - component: {fileID: 2981938654984023276}
   - component: {fileID: 7550951101056137908}
   - component: {fileID: 2938502809054986756}
-  m_Layer: 0
+  - component: {fileID: -3486838127583575464}
+  - component: {fileID: 7218114812822019762}
+  m_Layer: 7
   m_Name: Comet_Pepper_Chopped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,3 +183,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: f6d3f372dfdc83843ada295a733cd80a, type: 2}
+--- !u!114 &-3486838127583575464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378769438446654006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91be763cb94c90d42850d541ccd61a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
+  itemPickup:
+    Guid:
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
+--- !u!114 &7218114812822019762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378769438446654006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision

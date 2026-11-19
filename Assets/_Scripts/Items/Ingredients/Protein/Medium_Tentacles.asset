@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Medium Tentacles
   obj: {fileID: 5532151047893109364, guid: 765bbfce99bf9e94babad69a8beac977, type: 3}
   index: 2
+  placingSFX:
+    Guid:
+      Data1: -1726425391
+      Data2: 1282327858
+      Data3: -952139871
+      Data4: 1508425796
+    Path: event:/Cooking/Meat Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

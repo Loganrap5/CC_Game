@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Cooked Tentacles
   obj: {fileID: 777386857078840951, guid: de8fd8c3421381345920c837bdb33b8b, type: 3}
   index: 1
+  placingSFX:
+    Guid:
+      Data1: -1726425391
+      Data2: 1282327858
+      Data3: -952139871
+      Data4: 1508425796
+    Path: event:/Cooking/Meat Placement
+  itemDrop:
+    Guid:
+      Data1: 730289984
+      Data2: 1324493203
+      Data3: -1514348885
+      Data4: -727095758
+    Path: event:/Interactables/Drop Meat

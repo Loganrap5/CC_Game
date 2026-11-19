@@ -14,3 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Nebula Meat Chunk
   obj: {fileID: 79446945027357740, guid: 9e6b5324aa8463948b0f954248630599, type: 3}
+  index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: 968364945
+      Data2: 1285288779
+      Data3: -1297164918
+      Data4: 1985942020
+    Path: event:/Interactables/Drop Meat Chunk

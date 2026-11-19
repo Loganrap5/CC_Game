@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Kebab Stick
   obj: {fileID: 8051436203258855671, guid: d24989a71548e07498ae05c9ff4a1a95, type: 3}
   index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: -1712665283
+      Data2: 1193267672
+      Data3: -1363249497
+      Data4: 1088508765
+    Path: event:/Interactables/Item Drop

@@ -603,6 +603,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!65 &110369893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3046,6 +3053,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!65 &555627898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4400,6 +4414,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!65 &980386114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5450,6 +5471,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!114 &1273747210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6945,6 +6973,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!65 &1597104959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9803,6 +9838,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c404582a375baab4d86a5eb5dd95eb0c, type: 2}
   - {fileID: 11400000, guid: 4de2f9089eea79a43820f09589c97dfb, type: 2}
   currentGrillData: {fileID: 0}
+  cookingSFX:
+    Guid:
+      Data1: 1694638510
+      Data2: 1107382592
+      Data3: 1496660352
+      Data4: 480878751
+    Path: event:/Cooking/Cooking
 --- !u!65 &2030231820
 BoxCollider:
   m_ObjectHideFlags: 0

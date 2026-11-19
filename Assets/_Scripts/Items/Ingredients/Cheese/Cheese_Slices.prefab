@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1742641434574406916}
   - component: {fileID: 6977154333673434314}
   - component: {fileID: 123987468719198116}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 5208740476571349277}
   - component: {fileID: 3358807137241989470}
   - component: {fileID: 3269000668424727910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 6886688312762819761}
   - component: {fileID: 5208310341639748786}
   - component: {fileID: 9026605879844186956}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 4014993042214550255}
   - component: {fileID: 4029083041113158395}
   - component: {fileID: 4296938379234591913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 7480887565777562212}
   - component: {fileID: 8808587134473983713}
   - component: {fileID: 6900700717135461099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,8 @@ GameObject:
   - component: {fileID: 7654164643875413380}
   - component: {fileID: 1465475880951696538}
   - component: {fileID: 4462391877001642880}
-  m_Layer: 0
+  - component: {fileID: -108062076323429933}
+  m_Layer: 7
   m_Name: Cheese_Slices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,18 +575,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupInteraction
   itemPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  itemDrop:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2085865302
+      Data2: 1140521737
+      Data3: 2142299029
+      Data4: -1125857460
+    Path: event:/Interactables/Item Pickup
 --- !u!114 &4462391877001642880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,6 +593,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemData: {fileID: 11400000, guid: fabba7347646529459a341048c929850, type: 2}
+--- !u!114 &-108062076323429933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667339524926373068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b166b40bbae2fe4d88e5a6a1619ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropSoundOnCollision
 --- !u!1 &5971937684596613364
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +616,7 @@ GameObject:
   - component: {fileID: 2762083630432135844}
   - component: {fileID: 3012781801046960408}
   - component: {fileID: 7808273480092424569}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_End_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +706,7 @@ GameObject:
   - component: {fileID: 3012073936555997870}
   - component: {fileID: 8050711636963483907}
   - component: {fileID: 1083448599894016263}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,7 +796,7 @@ GameObject:
   - component: {fileID: 8935706305680659421}
   - component: {fileID: 6298755795206636973}
   - component: {fileID: 7519844732750570140}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +886,7 @@ GameObject:
   - component: {fileID: 961685268057284359}
   - component: {fileID: 2872517184638483503}
   - component: {fileID: 5240138367803193314}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +976,7 @@ GameObject:
   - component: {fileID: 61151096969186497}
   - component: {fileID: 4417755108351573707}
   - component: {fileID: 3161852274224949533}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1066,7 @@ GameObject:
   - component: {fileID: 5837518685918530520}
   - component: {fileID: 1158507541812957014}
   - component: {fileID: 7698783602835450796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_End_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1150,7 +1156,7 @@ GameObject:
   - component: {fileID: 4974976287759232009}
   - component: {fileID: 8476177278142398860}
   - component: {fileID: 8404879845486725641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1240,7 +1246,7 @@ GameObject:
   - component: {fileID: 5092109495827757803}
   - component: {fileID: 3359733357034548070}
   - component: {fileID: 1611694008132808875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1336,7 @@ GameObject:
   - component: {fileID: 7814822296845012848}
   - component: {fileID: 2656303207111932429}
   - component: {fileID: 88320589003607043}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Solar_Cheese_Slice_Mid_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}

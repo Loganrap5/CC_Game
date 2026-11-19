@@ -5,7 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine.UI;
-
+using FMODUnity;
+using FMOD.Studio;
 
 public class Grill : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class Grill : MonoBehaviour
     [Header("Meat Types and Stages")]
     public List<GrillData> data = new List<GrillData>();
     public GrillData currentGrillData;
+
+    [SerializeField] private EventReference cookingSFX;
 
     
 
@@ -98,6 +101,10 @@ public class Grill : MonoBehaviour
         //Assign reference
         itemRef = item.itemData;
 
+        //FMOD
+        RuntimeManager.PlayOneShot(itemRef.placingSFX);
+        RuntimeManager.PlayOneShot(cookingSFX);
+
         //Inside the ItemSO, set this Grill as its reference, so when it's picked up it can stop this grill from doing it's thing. 
         //itemRef.GetComponent<PickupInteraction>().SetGrill(this);
 
@@ -146,6 +153,9 @@ public class Grill : MonoBehaviour
     public void SpawnNextMeatType()
     {
         index++;
+
+        //FMOD
+        RuntimeManager.PlayOneShot(cookingSFX);
 
         //Get rid of old temp meat
         Destroy(spawnedObject);
