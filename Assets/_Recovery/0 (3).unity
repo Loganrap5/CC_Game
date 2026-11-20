@@ -610,6 +610,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &110369893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3060,6 +3067,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &555627898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4421,6 +4435,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &980386114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5478,6 +5499,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!114 &1273747210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6980,6 +7008,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &1597104959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7536,6 +7571,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed5147834645124487b5144be0a9633, type: 3}
+--- !u!1 &1704164986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704164988}
+  - component: {fileID: 1704164987}
+  m_Layer: 0
+  m_Name: Ambiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1704164987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704164986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1765605321
+      Data2: 1288938533
+      Data3: -1000343921
+      Data4: 1603941509
+    Path: event:/Ambiance/Room Tone
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1704164988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704164986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 644.49927, y: 0.00004, z: 1756.6953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1714553371
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,6 +7703,7 @@ MonoBehaviour:
   recipes:
   - {fileID: 11400000, guid: 20207e7f60be8cf41bb2737ca1af9148, type: 2}
   - {fileID: 11400000, guid: 177572471a7259b42a772ea86c6aaa29, type: 2}
+  addedIngredients: []
   ingredientSpots:
   - {fileID: 1170698701}
   - {fileID: 1757870452}
@@ -9845,6 +9944,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &2030231820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32346,3 +32452,4 @@ SceneRoots:
   - {fileID: 3083699201846497405}
   - {fileID: 1557497448}
   - {fileID: 1686116942}
+  - {fileID: 1704164988}

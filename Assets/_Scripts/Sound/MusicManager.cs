@@ -55,7 +55,7 @@ public class MusicManager : MonoBehaviour
         if (!currentMusic.isValid())
             return;
 
-        if (sceneName == "0 (1)")
+        if (sceneName == "Start Menu")
         {
             currentMusic.setParameterByName(
                 musicParameter,

@@ -24,8 +24,8 @@ MonoBehaviour:
     Path: 
   itemDrop:
     Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
+      Data1: -1553811096
+      Data2: 1159731246
+      Data3: -162792535
+      Data4: 1513329875
+    Path: event:/Interactables/Drop Bread

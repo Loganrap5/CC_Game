@@ -71,7 +71,7 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639307248255945100
+  lastModified: 639307616036484049
   FileSizes:
   - Name: Desktop
     Value: 6050336
@@ -302,7 +302,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639307248255955109
+  cacheTime: 639307616036501186
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639307248255955109
+  lastModified: 639307616036501186
   FileSizes:
   - Name: Desktop
     Value: 1548
