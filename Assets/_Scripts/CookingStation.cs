@@ -10,7 +10,7 @@ public class CookingStation : MonoBehaviour
     private HoldInteraction interaction;
     public Player player;
     public List<RecipeData> recipes = new List<RecipeData>();
-    private List<ItemSO> addedIngredients = new List<ItemSO>();
+    public List<ItemSO> addedIngredients = new List<ItemSO>();
 
 
     //Locations for where the ingredients populate on the grill

@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     public int pointsEarned;
     public int totalPointsAvailable;
 
+    
+
     //Debugging
     [ContextMenu("Start Game")]
     public void StartGame()
@@ -31,11 +33,20 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnCarRoutine());
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            StartGame();
+        }
+    }
+
     //Simple car loop
     public IEnumerator SpawnCarRoutine()
     {
         //First spawn car
-        Car _car = Instantiate(car, carSpawnPoint.position, Quaternion.identity);
+        Quaternion spawnRotation = Quaternion.Euler(0f, 90f, 0f);
+        Car _car = Instantiate(car, carSpawnPoint.position, spawnRotation);
 
         //Move car towards window location
         _car.MoveCar(windowLocation);
@@ -45,6 +56,9 @@ public class GameManager : MonoBehaviour
             if(_car.foodDelivered)
             {
                 Debug.Log("Food delivered to car!");
+
+                //Allow player to see NPC Animation (happy / bad)
+                yield return new WaitForSeconds(3f);
 
                 //Move car away from window after food is deliviered
                 _car.MoveCar(carEndPoint);

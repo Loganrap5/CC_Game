@@ -378,7 +378,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1567818261435876064, guid: facee2ecd385e46458f9d54fb4fdcc1c, type: 3}
+  - {fileID: 2100000, guid: 9d094666b9be35a4eb2d41ca3456e663, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1207,7 +1207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7920798127459076679
 Transform:
   m_ObjectHideFlags: 0
@@ -1488,13 +1488,6 @@ MonoBehaviour:
   movement: {fileID: 0}
   eyes: {fileID: 2124837161917467087}
   dropRange: 1
-  itemDrop:
-    Guid:
-      Data1: -1712665283
-      Data2: 1193267672
-      Data3: -1363249497
-      Data4: 1088508765
-    Path: event:/Interactables/Item Drop
 --- !u!114 &5876165482182866233
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,15 +9,20 @@ public class Car : MonoBehaviour
 
     private PressInteraction interaction;
 
-    private float carSpeed = 3f;
+    private float carSpeed = 10f;
 
-    public bool foodDelivered = false; 
+    public bool foodDelivered = false;
+
+    //Set manually for now from NPC to car. for now 
+    public Animator animator;
 
     private void Start()
     {
         interaction = GetComponentInChildren<PressInteraction>();
 
         interaction.OnComplete += DeliverFood;
+
+        animator = GetComponentInChildren<Animator>();
 
         // tttttt
     }
@@ -49,6 +54,8 @@ public class Car : MonoBehaviour
 
         //Get car to leave - in this case setting foodDeliviered to true as GameManager handles the logic
         foodDelivered = true;
+
+        animator.SetTrigger("Fulfilled");
 
         //Add any conditions (money, bonus etc)
 

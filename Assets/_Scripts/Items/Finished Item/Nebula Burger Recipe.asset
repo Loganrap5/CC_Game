@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5bb66d1d0949a4d8b8c6349a2f72bc, type: 3}
+  m_Name: Nebula Burger Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeData
+  recipeName: Nebula Burger
+  ingredients:
+  - {fileID: 11400000, guid: ae7257b9371520147b848ad6817fd48a, type: 2}
+  - {fileID: 11400000, guid: 1da27b9ddf887e04d952b2c91eedd111, type: 2}
+  - {fileID: 11400000, guid: 64b568186e51baf4298160bf142fe325, type: 2}
+  - {fileID: 11400000, guid: a000793a2bee8ec49a1e1a3cc7bbab69, type: 2}
+  result: {fileID: 11400000, guid: 19f932e5a66426d488add619423105bf, type: 2}
