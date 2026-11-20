@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{eb101736-7bd8-46f4-b999-834a2dbe1a7e}">
+		<property name="assetPath">
+			<value>Food &amp; Drink, Cooking, Vegetable, Fruit, Canary Melon, Impact SND27937 4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.073749999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fe6174d5-7021-4667-9ef4-1c65a0f558b9}</destination>
+		</relationship>
+	</object>
+</objects>

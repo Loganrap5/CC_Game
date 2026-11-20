@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7471479849194880134}
   - component: {fileID: 2322249997101679493}
   - component: {fileID: -5736181268174942639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kebab_Stick_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

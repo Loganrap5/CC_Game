@@ -32,9 +32,12 @@ public class Grill : MonoBehaviour
     public List<GrillData> data = new List<GrillData>();
     public GrillData currentGrillData;
 
+    //FMOD
     [SerializeField] private EventReference cookingSFX;
+    private EventInstance cookingInstance;
+    [SerializeField] private EventReference cookingDone;
 
-    
+
 
 
     //TODO - Determine when player picks up meat from grill it resets everything. 
@@ -72,6 +75,8 @@ public class Grill : MonoBehaviour
 
                     //Reset timer
                     timeToCount = 0;
+
+                    StopCookingSound();
                 }
             }
         }
@@ -103,7 +108,7 @@ public class Grill : MonoBehaviour
 
         //FMOD
         RuntimeManager.PlayOneShot(itemRef.placingSFX);
-        RuntimeManager.PlayOneShot(cookingSFX);
+        StartCookingSound();
 
         //Inside the ItemSO, set this Grill as its reference, so when it's picked up it can stop this grill from doing it's thing. 
         //itemRef.GetComponent<PickupInteraction>().SetGrill(this);
@@ -154,8 +159,8 @@ public class Grill : MonoBehaviour
     {
         index++;
 
-        //FMOD
-        RuntimeManager.PlayOneShot(cookingSFX);
+        StartCookingSound();
+        RuntimeManager.PlayOneShot(cookingDone);
 
         //Get rid of old temp meat
         Destroy(spawnedObject);
@@ -179,6 +184,8 @@ public class Grill : MonoBehaviour
     public void RemoveIngredient()
     {
         Debug.Log("INGREDIENT REMOVED");
+
+        StopCookingSound();
 
         //Reset timer
         timeToCount = 0;
@@ -205,6 +212,25 @@ public class Grill : MonoBehaviour
         if (interaction != null)
         {
             interaction.OnComplete -= PlaceItemOnGrill;
+        }
+    }
+
+    private void StartCookingSound()
+    {
+        // Prevent multiple instances from playing
+        cookingInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        cookingInstance.release();
+
+        cookingInstance = RuntimeManager.CreateInstance(cookingSFX);
+        cookingInstance.start();
+    }
+
+    private void StopCookingSound()
+    {
+        if(cookingInstance.isValid())
+        {
+            cookingInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            cookingInstance.release();
         }
     }
 }

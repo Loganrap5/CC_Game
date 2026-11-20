@@ -610,6 +610,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &110369893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3060,6 +3067,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &555627898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4421,6 +4435,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &980386114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5478,6 +5499,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!114 &1273747210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6980,6 +7008,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &1597104959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9845,6 +9880,13 @@ MonoBehaviour:
       Data3: 1496660352
       Data4: 480878751
     Path: event:/Cooking/Cooking
+  cookingDone:
+    Guid:
+      Data1: -1683436038
+      Data2: 1178860271
+      Data3: 1004737186
+      Data4: 1965391386
+    Path: event:/Cooking/Cooking Done
 --- !u!65 &2030231820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10448,6 +10490,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093109303}
   m_CullTransparentMesh: 1
+--- !u!1 &2123684890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123684892}
+  - component: {fileID: 2123684891}
+  m_Layer: 0
+  m_Name: Ambiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2123684891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123684890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1765605321
+      Data2: 1288938533
+      Data3: -1000343921
+      Data4: 1603941509
+    Path: event:/Ambiance/Room Tone
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &2123684892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123684890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.69035, y: -1.51917, z: -19.34664}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3873743133197829
 GameObject:
   m_ObjectHideFlags: 0
@@ -32346,3 +32451,4 @@ SceneRoots:
   - {fileID: 3083699201846497405}
   - {fileID: 1557497448}
   - {fileID: 1686116942}
+  - {fileID: 2123684892}

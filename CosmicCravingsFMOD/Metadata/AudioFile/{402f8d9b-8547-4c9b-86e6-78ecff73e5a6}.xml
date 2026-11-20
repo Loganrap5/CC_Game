@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{402f8d9b-8547-4c9b-86e6-78ecff73e5a6}">
+		<property name="assetPath">
+			<value>Fight, Impact, Hit, Hard, Thump, Wet, Meat SND4350 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.36520833333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fe6174d5-7021-4667-9ef4-1c65a0f558b9}</destination>
+		</relationship>
+	</object>
+</objects>

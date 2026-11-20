@@ -15,3 +15,17 @@ MonoBehaviour:
   itemName: Melted Cheese 1
   obj: {fileID: 1221053664805566036, guid: 1e32a82651475e94ca55b67f74608f7a, type: 3}
   index: 0
+  placingSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  itemDrop:
+    Guid:
+      Data1: -1470187227
+      Data2: 1265744823
+      Data3: -1086352762
+      Data4: 1715450324
+    Path: event:/Interactables/Drop Cheese

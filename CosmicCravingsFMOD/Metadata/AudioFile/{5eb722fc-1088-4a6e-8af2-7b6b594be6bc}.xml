@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5eb722fc-1088-4a6e-8af2-7b6b594be6bc}">
+		<property name="assetPath">
+			<value>Food &amp; Drink, Ingredients, Rattan Cane Impact, Low SND116274 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.16645833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fe6174d5-7021-4667-9ef4-1c65a0f558b9}</destination>
+		</relationship>
+	</object>
+</objects>

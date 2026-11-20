@@ -71,10 +71,10 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639306989327919801
+  lastModified: 639307149600080375
   FileSizes:
   - Name: Desktop
-    Value: 5741056
+    Value: 6050336
   Exists: 1
 --- !u!114 &-4853021387591427294
 MonoBehaviour:
@@ -102,7 +102,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 283
+  Length: 110
 --- !u!114 &-2618255240244612378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 338
+  Length: 110
 --- !u!114 &-1947403757884793787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 307
+  Length: 140
 --- !u!114 &-1797550393145094385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 280
+  Length: 110
 --- !u!114 &-582049880382265176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,13 +295,14 @@ MonoBehaviour:
   - {fileID: -1153557089802018277}
   - {fileID: -2618255240244612378}
   - {fileID: 556930666039181734}
+  - {fileID: 1671692949129137828}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4977907771567204158}
   StringsBanks:
   - {fileID: 7540292967650108511}
   cacheVersion: 131858
-  cacheTime: 639306989327977633
+  cacheTime: 639307149600145702
   SerializableEventsDict:
   - key: event:/Music/Music System
     index: 0
@@ -331,6 +332,8 @@ MonoBehaviour:
     index: 12
   - key: event:/Interactables/Drop Meat Chunk
     index: 13
+  - key: event:/Cooking/Cooking Done
+    index: 14
 --- !u!114 &269045308435630600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,13 +354,13 @@ MonoBehaviour:
     Data4: 480878751
   Banks:
   - {fileID: -4977907771567204158}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3828
+  Length: 9000
 --- !u!114 &391358684401195236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +387,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 443
+  Length: 300
 --- !u!114 &556930666039181734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +414,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 323
+  Length: 300
+--- !u!114 &1671692949129137828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cooking/Cooking Done
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cooking/Cooking Done
+  Guid:
+    Data1: -1683436038
+    Data2: 1178860271
+    Data3: 1004737186
+    Data4: 1965391386
+  Banks:
+  - {fileID: -4977907771567204158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 421
 --- !u!114 &2993672849296360276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +468,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 323
+  Length: 300
 --- !u!114 &3540687991215245255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +495,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 800
+  Length: 650
 --- !u!114 &4174194140711458891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,8 +559,8 @@ MonoBehaviour:
   Path: CosmicCravingsFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639306989327977633
+  lastModified: 639307149600145702
   FileSizes:
   - Name: Desktop
-    Value: 1500
+    Value: 1548
   Exists: 1
